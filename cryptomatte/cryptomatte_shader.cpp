@@ -138,15 +138,8 @@ node_update {
                     AiNodeGetStr(node, aStr_aov_crypto_material), 
                     uc_aov_array, 
                     uc_src_array, 
-<<<<<<< HEAD
-                    AiNodeGetBool(node, "custom_output_driver"), 
-                    AiNodeGetBool(node, "create_depth_outputs"));
-
-    setup_outputs_lentil(universe);
-=======
                     AiNodeGetBool(node, aStr_custom_output_driver), 
                     AiNodeGetBool(node, aStr_create_depth_outputs));
->>>>>>> upstream/master
 }
 
 shader_evaluate {

@@ -848,13 +848,6 @@ public:
         user_cryptomattes = UserCryptomattes(uc_aov_array, uc_src_array);
 
         setup_outputs(universe);
-<<<<<<< HEAD
-        crypto_crit_sec_leave();
-
-        // lentil addition
-        is_setup_completed = true;
-=======
->>>>>>> upstream/master
     }
 
     void set_option_channels(int depth, bool exr_preview_channels) {
